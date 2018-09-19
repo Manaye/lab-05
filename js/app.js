@@ -93,7 +93,14 @@ function sumArray(sumArr) { //eslint-disable-line
 
 //Problem 5
 function multiplyArray(multArr) { //eslint-disable-line
-}
+    var product = arr.reduce(function(acc, cur){
+        return acc*cur;
+      });
+      var result = [product, arr.join()+' thier product is '+ product]
+      return result;
+    }
+    console.log(multiplyArray([2,3,4]));
+
   // Problem 6
 
   var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
