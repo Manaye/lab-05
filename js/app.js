@@ -59,7 +59,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
     var arr = [sumResult,multiplyResult,a+' and '+ b+ ' and '+ c+ ' sum to '+sumResult, 'The product of '+ a + ' and '+ b+ ' and '+c+' is '+multiplyResult];
     return arr;
   }
-  console.log(sumAndMultiply(4,7,5));
+ 
 
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
